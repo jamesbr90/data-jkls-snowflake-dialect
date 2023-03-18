@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "lib": [ "es2017" ],
+    "outDir": "lib",
+    "declaration": true,
+    "sourceMap": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "noImplicitReturns": true,
+    "preserveConstEnums": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "forceConsistentCasingInFileNames": true,
+    "removeComments": false,
+  },
+  "include": ["src"],
+  "exclude": [
+    "node_modules",
+    "node_modules/@types",
+    "lib",
+    "test/**/*.uspec.ts",
+    "test/**/*.ispec.ts"
+  ],
+}
